@@ -1,5 +1,6 @@
 
 import MarkdownEditor from "@/components/MarkdownEditor";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
@@ -7,6 +8,7 @@ const Index = () => {
       <div className="flex-grow">
         <MarkdownEditor />
       </div>
+      <Footer />
     </div>
   );
 };
